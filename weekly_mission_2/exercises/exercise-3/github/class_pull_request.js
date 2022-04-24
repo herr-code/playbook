@@ -8,10 +8,9 @@ class PullRequest {
     this.status = status
     this.repositoryNameAssociated = repositoryNameAssociated
     this.author = author
+  }
 
-	}
-
-	getStatus(){
+  getStatus(){
     return this.status
   }
 

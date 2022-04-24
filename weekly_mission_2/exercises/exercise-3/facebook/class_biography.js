@@ -1,4 +1,4 @@
-class Biography {
+﻿class Biography {
   // El constructor nos permite instanciar un objeto y asignarle atributos, 
   //this nos ayuda a realizar esto.
   constructor(user, username, description, posts, photoProfile, bannerURL, videos, photos, events, opinions, info){
@@ -13,9 +13,9 @@ class Biography {
     this.events = events
     this.opinions = opinions
     this.info = info
-	}
+  }
 
-	getPhotoProfile(){
+  getPhotoProfile(){
     return this.photoProfile
   }
   

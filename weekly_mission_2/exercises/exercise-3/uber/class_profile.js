@@ -7,9 +7,9 @@ class Profile {
     this.numberTravels = numberTravels
     this.email = email
     this.phoneNumber = phoneNumber
-	}
+  }
 
-	geNumberTravels(){
+  geNumberTravels(){
     return this.numberTravels
   }
  

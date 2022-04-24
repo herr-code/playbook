@@ -5,9 +5,9 @@ class Hashtag {
     this.title = title
     this.numberTweetsRelated = numberTweetsRelated
     this.numberTrendingTopics = numberTrendingTopics
-	}
+  }
 
-	getGeneralInfo(){
+  getGeneralInfo(){
     return `Hashtag: ${this.title} \nTweets Related: ${this.numberTweetsRelated}\nTrending Topics: ${this.numberTrendingTopics}`
   }
 }

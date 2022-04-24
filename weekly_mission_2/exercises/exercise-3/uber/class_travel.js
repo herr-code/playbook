@@ -1,4 +1,4 @@
-class Travel {
+﻿class Travel {
   // El constructor nos permite instanciar un objeto y asignarle atributos, 
   //this nos ayuda a realizar esto.
   constructor(user, driver, driverStars, travelTime, travelDestination, travelOrigin, payMethod, cost){
@@ -10,9 +10,9 @@ class Travel {
     this.travelOrigin = travelOrigin
     this.payMethod = payMethod
     this.cost = cost
-	}
+  }
 
-	getCost(){
+  getCost(){
     return this.cost
   }
 

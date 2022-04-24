@@ -10,15 +10,15 @@ class Repo {
     this.forks = forks
     this.issues_open = issues_open
     this.issues_close = issues_close
-	}
+  }
 
-	getTotalIssues(){
+  getTotalIssues(){
     return this.issues_open + this.issues_close
- 	}
+  }
 
   getGeneralInfo(){
-    return `This repository ${this.name} was created by ${this.author} has ${this.stars} stars`
- }
+   return `This repository ${this.name} was created by ${this.author} has ${this.stars} stars`
+  }
 }
 
 // Instanciar un objeto de la clase repo

@@ -1,4 +1,4 @@
-class TrendingTopic {
+﻿class TrendingTopic {
   // El constructor nos permite instanciar un objeto y asignarle atributos, 
   //this nos ayuda a realizar esto.
   constructor(title, keywords, dateRange, totalTweets, retweets, numberOfLinks, numberOfImages, hashtags, country){
@@ -11,9 +11,9 @@ class TrendingTopic {
     this.numberOfImages = numberOfImages
     this.hashtags = hashtags
     this.country = country
-	}
+  }
 
-	getTotalTweets(){
+  getTotalTweets(){
     return this.totalTweets
   }
 

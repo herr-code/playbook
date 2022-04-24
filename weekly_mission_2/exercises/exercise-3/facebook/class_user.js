@@ -12,9 +12,9 @@ class User {
     this.status = status
     this.followers = followers
     this.numberOfFriends = numberOfFriends
-	}
+  }
 
-	getNumberOfFriends(){
+  getNumberOfFriends(){
     return this.numberOfFriends
   }
 

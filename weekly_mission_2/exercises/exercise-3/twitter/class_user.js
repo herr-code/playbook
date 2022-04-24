@@ -9,9 +9,9 @@ class User {
     this.email = email
     this.phoneNumber = phoneNumber
     this.age = age
-	}
+  }
 
-	getPhoneNumber(){
+  getPhoneNumber(){
     return this.phoneNumber
   }
   

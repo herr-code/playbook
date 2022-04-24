@@ -10,9 +10,9 @@ class Post {
     this.comments = comments
     this.share = share
     this.numberOfLikes = numberOfLikes
-	}
+  }
 
-	getNumberOfLikes(){
+  getNumberOfLikes(){
     return this.numberOfLikes
   }
 

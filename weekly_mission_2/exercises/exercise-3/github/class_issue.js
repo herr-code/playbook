@@ -10,11 +10,12 @@ class Issue {
     this.author = author
     this.dateCreated = dateCreated
     this.lastUpdated = lastUpdated
-	}
+  }
 
-	getTitleAndAuthor(){
+  getTitleAndAuthor(){
     return `This issue: ${this.title} was created by: ${this.author}`
   }
+
   getGeneralInfo(){
     return `This issue: ${this.title} is ${this.status} and was created on: ${this.dateCreated}`
   }
