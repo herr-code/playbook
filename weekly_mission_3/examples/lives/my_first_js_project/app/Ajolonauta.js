@@ -1,7 +1,7 @@
-class Ajolonauta {
-	constructor(name) {
-		this.name = name
-	}
+﻿class Ajolonauta {
+  constructor(name) {
+    this.name = name
+  }
 }
 
 //Exportando la clase
