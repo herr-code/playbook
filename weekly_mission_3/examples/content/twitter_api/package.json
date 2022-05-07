@@ -1,0 +1,18 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Twitter API con express ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node server.js"
+  },
+  "author": "herr-code",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
